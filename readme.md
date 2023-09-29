@@ -1,12 +1,11 @@
-#**Refont web : développement** 🚀 
-![cover](./cover.PNG)
->Cette interface web à l’apparence très propre et bien designée, présente des erreurs de structuration. Les entêtes du document ne sont pas renseignées.
-Par simple analyse écrite, minimum une page. Détaillez les points forts et faibles de cette page structurée en  HTML (_div vs semantique_) et css. Dans le validator W3C il y a 9 erreurs à corriger. Du coté css il faut appliquer l'unité de mesure REM :  n'oublié pas de déclarer la racine. Argumentez les erreurs que le développeur commet dans son approche techniques. Il y a également des erreurs d'accessiblité: veuillez m'en décrire quelques uns et m'expliquer la raison. A la fin de votre analyse réalisez la refonte de la page
+Pour la css il faut changer les pixels en unité de rem, on doit d'abord décider d'une racine à partir de laquelle les rem seront calculés 
+j'ai pris une valeur de 16px pour la racine, et j'ai divisé la valeur en pixel par 16.
 
-> *Pour travailler plus confortablement procédez à un clône de ce dépôt git*.
-> A la fin de votre réalisation créez un dépôt git avec l'affichage de la page d'index sur le navigateur.
-> Trasmettez moi le lien sur mon spread-sheet que je vous est partagé. 
-> L'exercice sera  noté /20
-
-![AUR license](https://img.shields.io/aur/license/c)
+Y a pas d'icone sur la page, donc j'ai ajouté 
+J'ai ajouté les balises <meta charset="UTF-8"> et <meta name="viewport" content="width=device-width, initial-scale=1.0"> dans la section <head> pour définir correctement l'encodage et la vue mobile.
+J'ai corrigé le lien du bouton de recherche pour qu'il soit encapsulé dans la balise <a>.
+J'ai supprimé une balise </div> en trop juste avant la balise de fermeture </div> de la classe 'content'
+J'ai ajouté l'attribut name manquant à l'élément <input type="password"> dans le formulaire.
+J'ai corrigé la balise <a> pour le lien "Sign up" dans la classe 'link'
+Dans la class "menu" j'ai vu que la balise "div" ne sert à rien, donc j'ai enlevé la balise "div" et j'ai transmet la classe "menu" à la balise "ul"
 
