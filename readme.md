@@ -1,7 +1,11 @@
-Pour la css il faut changer les pixels en unité de rem, on doit d'abord décider d'une racine à partir de laquelle les rem seront calculés j'ai pris une valeur de 16px pour la racine, et j'ai divisé la valeur en pixel par 16.
+# Refonte Site web
 
 
-J'ai ajouté les balises "meta charset="UTF-8"" et "meta name="viewport" content="width=device-width, initial-scale=1.0"" dans la section "head" pour définir correctement l'encodage et la vue mobile.
+>Pour la css il faut changer les pixels en unité de rem, on doit d'abord décider d'une racine à partir de laquelle les rem seront calculés j'ai pris une valeur de 16px pour la racine, et j'ai divisé la valeur en pixel par 16.
+
+>Y a pas d'icone sur la page, donc j'ai ajouté l'icone à l'aide de chemin favicon.
+
+>J'ai ajouté les balises "meta charset="UTF-8"" et "meta name="viewport" content="width=device-width, initial-scale=1.0"" dans la section "head" pour définir correctement l'encodage et la vue mobile.
 
 J'ai corrigé le lien du bouton de recherche pour qu'il soit encapsulé dans la balise "a".
 
@@ -15,4 +19,4 @@ Dans la class "menu" j'ai vu que la balise "div" ne sert à rien, donc j'ai enle
 
 J'ai ajouté le lien     "script src="./js/app.js"> /script" vers le fichier "app.js"
 
-
+J'ai ajouté l'attribut aria-label à l'élément "button", ce qui est une bonne pratique pour améliorer l'accessibilité en fournissant une étiquette explicite pour le bouton.
